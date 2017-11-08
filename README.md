@@ -1,7 +1,7 @@
 # 407toll
 
-Online Implementation: http://datalya.com/ml/recommender407.php
-Excel Implementation attached.
+- Online Implementation: http://datalya.com/ml/recommender407.php
+- Excel Implementation included.
 
 Goal: 
 We share an analytical model to decide whether to take 407 during peak times (6am to 10am; 2.30pm to 7pm) or public highway. The model calculates the dollar value for the toll and personal time, and is aimed at a typical passenger car with a transponder installed. The dollar estimates are around 10% of the real costs. The cost includes personal time cost while travelling. 
