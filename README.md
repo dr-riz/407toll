@@ -22,13 +22,12 @@ Inputs:
 Calculations:
 - Personal worth per hour = worth = salary / Year-work-hours
 - Personal cost on free highway = distance / toll free-speed * worth
-
 - Travel cost on 407 = distance * golden peak rate
 - Travel cost on 407 including personal time = distance / 407-speed * worth + Cost of travel on 407
 
 Decision to take 407: 
-yes, if Personal cost on free highway > Travel cost on 407 including personal time
-	No otherwise
+- yes, if Personal cost on free highway > Travel cost on 407 including personal time
+- No otherwise
 
 Output: 
 - Travel cost on 407, you are welcome to cross it with 407 ETR official calculator 
