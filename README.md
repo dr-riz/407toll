@@ -13,24 +13,24 @@ Assumptions:
 - Year-work-hours = 2,000;
 
 Constants:
-Golden peak rate = 31.75c / km;
+- Golden peak rate = 31.75c / km;
 
 Inputs:
-(Annual) salary
-Distance (to travel) right now
+- (Annual) salary
+- Distance (to travel) right now
 
 Calculations:
-Personal worth per hour = worth = salary / Year-work-hours
-Personal cost on free highway = distance / toll free-speed * worth
+- Personal worth per hour = worth = salary / Year-work-hours
+- Personal cost on free highway = distance / toll free-speed * worth
 
-Travel cost on 407 = distance * golden peak rate
-Travel cost on 407 including personal time = distance / 407-speed * worth + Cost of travel on 407
+- Travel cost on 407 = distance * golden peak rate
+- Travel cost on 407 including personal time = distance / 407-speed * worth + Cost of travel on 407
 
 Decision to take 407: 
 yes, if Personal cost on free highway > Travel cost on 407 including personal time
 	No otherwise
 
 Output: 
-Travel cost on 407, you are welcome to cross it with 407 ETR official calculator 
-Travel cost on 407 including personal time
-Decision to take 407: y/n
+- Travel cost on 407, you are welcome to cross it with 407 ETR official calculator 
+- Travel cost on 407 including personal time
+- Decision to take 407: y/n
