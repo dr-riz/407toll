@@ -6,14 +6,14 @@ Goal:
 We share an analytical model to decide whether to take 407 during peak times (6am to 10am; 2.30pm to 7pm). The model calculates the dollar value for the toll and personal time, and is aimed at a typical passenger car with a transponder installed. The dollar estimates are around 10% of the real costs.
 
 Assumptions:
-Lightweight vehicles
-Transponder already installed in the vehicle
+- Lightweight vehicles;
+- Transponder already installed in the vehicle;
+- Speed of toll-free highway during peak time = toll free-speed = 50 km/h;
+- Speed on 407 during peak time = 407-speed = 100 km/h;
+- Year-work-hours = 2,000;
 
 Constants:
-Golden peak rate = 31.75c / km
-Year-work-hours = 2,000 
-Speed of toll-free highway during peak time = toll free-speed = 50 km/h
-Speed on 407 during peak time = 407-speed = 100 km/h
+Golden peak rate = 31.75c / km;
 
 Inputs:
 (Annual) salary
